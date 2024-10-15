@@ -11,7 +11,7 @@ export default function Header(){
       <link href={`https://fonts.googleapis.com/css2?family=${fonte}&display=swap`} rel="stylesheet"></link>
 
       <div className="flex justify-center md:justify-start 2xl:justify-center items-center w-[100%] top-0 py-3 sm:pl-5" >
-      <a href="/?fonte=Outfit&modal=true&query=" className={`font-koulen text-4xl mx-2 dark:text-white`} style={{fontFamily: `${fonte}`}}>Free Fonts</a>
+      <a href="/" className={`font-koulen text-4xl mx-2 dark:text-white`} style={{fontFamily: `${fonte}`}}>Free Fonts</a>
     </div>
     </div>
 
