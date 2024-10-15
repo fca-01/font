@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root{
+  --main-bg-color: #112E45;
+  --second-color: #071A2B;
+  --third-color: #0e273b;
+  --emphasis-color: #ffffff;
+  --text-color: #e6fae6;
+
+}
+*{
+  @apply transition-colors duration-300 ease-out;
+  
+}
